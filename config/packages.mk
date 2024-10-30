@@ -14,6 +14,7 @@
 
 # Required packages
 PRODUCT_PACKAGES += \
+    AvatarPicker \
     Aperture \
     DocumentsUI \
     Launcher3QuickStep \
