@@ -50,7 +50,6 @@ SOONG_CONFIG_superiorGlobalVars += \
     target_health_charging_control_supports_toggle \
     target_init_vendor_lib \
     target_inputdispatcher_skip_event_key \
-    target_ld_shim_libs \
     target_power_libperfmgr_mode_extension_lib \
     target_powershare_path \
     target_powershare_enabled \
@@ -149,7 +148,6 @@ SOONG_CONFIG_superiorGlobalVars_target_powershare_path := $(TARGET_POWERSHARE_PA
 SOONG_CONFIG_superiorGlobalVars_target_powershare_enabled := $(TARGET_POWERSHARE_ENABLED)
 SOONG_CONFIG_superiorGlobalVars_target_powershare_disabled := $(TARGET_POWERSHARE_DISABLED)
 SOONG_CONFIG_superiorGlobalVars_target_inputdispatcher_skip_event_key := $(TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY)
-SOONG_CONFIG_superiorGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
 SOONG_CONFIG_superiorGlobalVars_target_surfaceflinger_udfps_lib := $(TARGET_SURFACEFLINGER_UDFPS_LIB)
 SOONG_CONFIG_superiorGlobalVars_target_trust_usb_control_path := $(TARGET_TRUST_USB_CONTROL_PATH)
 SOONG_CONFIG_superiorGlobalVars_target_trust_usb_control_enable := $(TARGET_TRUST_USB_CONTROL_ENABLE)
